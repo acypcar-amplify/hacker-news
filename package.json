@@ -1,0 +1,25 @@
+{
+  "name": "hackernews-node",
+  "version": "1.0.0",
+  "description": "A Server Side GraphQL Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "deploy": "cd database && prisma deploy",
+    "token": "cd database && prisma token"
+  },
+  "keywords": [
+    "hacker",
+    "graphql"
+  ],
+  "author": "Annie Cypcar",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "graphql-cli": "^2.16.5",
+    "graphql-yoga": "^1.14.12",
+    "jsonwebtoken": "^8.3.0",
+    "prisma": "^1.12.0",
+    "prisma-binding": "^2.1.1"
+  }
+}
