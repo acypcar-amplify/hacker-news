@@ -3,14 +3,16 @@
 ## Install dependencies
     npm install
 
+## Deploy prisma
+    cd database
+    prisma playground
+
 ## Run the server
     node src/index.js
 
-## Or start the playground
-    prisma playground
-
 ## Get a token
-   prisma token
+    cd database
+    prisma token
 
 ## Add the token to the HTTP HEADERS
     {
