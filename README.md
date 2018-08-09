@@ -1,4 +1,4 @@
-# Hacker News: A GraphQL Test Service
+# Hacker News: a GraphQL server using Node.js, the graphql-yoga server library and Prisma
 
 ## Install dependencies
     npm install
